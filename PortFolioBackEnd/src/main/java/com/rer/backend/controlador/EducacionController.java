@@ -30,7 +30,7 @@ public class EducacionController {
     public List<Educacion> verDatosEdu(){
         return IEduServ.verDatosEdu();
     }
-    @DeleteMapping("/deleteEdu/{id}")
+    @DeleteMapping("/deletedatosEdu/{id}")
      public void borrarDatosEdu(@PathVariable long id){
         IEduServ.borrarDatosEdu(id);
      }    
