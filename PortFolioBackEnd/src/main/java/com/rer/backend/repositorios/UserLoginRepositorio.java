@@ -5,5 +5,8 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserLoginRepositorio extends JpaRepository<UserLogin,Long> {
+public interface UserLoginRepositorio extends JpaRepository<UserLogin, String> {
+
+    public UserLogin findByUsuario(String usuario);
+
 }
