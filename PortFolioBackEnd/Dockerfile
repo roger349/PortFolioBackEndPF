@@ -1,6 +1,5 @@
 FROM amazoncorretto:17-alpine-jdk
-
-COPY target/backend-0.0.1-SNAPSHOT.jar backendPortfolioPF.jar 
-
-ENTRYPOINT ["java" , "-jar", "/backendPortfolioPF.jar"]
-
+MAINTAINER roger349
+COPY target/backend-0.0.1-SNAPSHOT.jar backend.jar 
+ENTRYPOINT ["java" , "-jar", "/backend.jar"]
+EXPOSE 8080
