@@ -40,8 +40,8 @@ public class TecnologiasController {
      public void borrarDatosTec(@PathVariable long id){
         ITecServ.borrarDatosTec(id);
      }    
-    @PutMapping("/updatedatosTec")
-    public ResponseEntity <Tecnologias> updateDatosTec(@PathVariable("id") long id, @RequestBody Tecnologias tec) {
+    @PutMapping("/updatedatosTec/{id}")
+    public ResponseEntity <Tecnologias> updatedatosTec(@PathVariable("id") long id, @RequestBody Tecnologias tec) {
         Optional <Tecnologias> tecno = TRepo.findById(id);
         if(tecno.isPresent()){
             Tecnologias tecn = tecno.get();

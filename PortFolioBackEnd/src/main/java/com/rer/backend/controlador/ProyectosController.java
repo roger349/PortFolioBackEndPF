@@ -41,8 +41,8 @@ public class ProyectosController {
      public void borrarDatosProy(@PathVariable long id){
         IProServ.borrarDatosProy(id);
      }    
-    @PutMapping("/updatedatosPro")
-    public ResponseEntity <Proyectos> updateDatosProy(@PathVariable("id") long id, @RequestBody Proyectos pro) {
+    @PutMapping("/updatedatosPro/{id}")
+    public ResponseEntity <Proyectos> updatedatosPro(@PathVariable("id") long id, @RequestBody Proyectos pro) {
       Optional <Proyectos> proy = PRepo.findById(id);
         if(proy.isPresent()){
             Proyectos proye = proy.get();

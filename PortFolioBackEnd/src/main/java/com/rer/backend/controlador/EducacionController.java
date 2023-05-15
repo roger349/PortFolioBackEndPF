@@ -39,11 +39,11 @@ public class EducacionController {
         return IEduServ.verDatosEdu();
     }
     @DeleteMapping("/deletedatosEdu/{id}")
-     public void borrarDatosEdu(@PathVariable long id){
+     public void deleteEdu(@PathVariable long id){
         IEduServ.borrarDatosEdu(id);
      }    
-    @PutMapping("/updatedatosEdu")
-    public ResponseEntity <Educacion> updateDatosEdu(@PathVariable("id") long id, @RequestBody Educacion edu) {
+    @PutMapping("/updatedatosEdu/{id}")
+    public ResponseEntity <Educacion> updatedatosEdu(@PathVariable("id") long id, @RequestBody Educacion edu) {
         Optional <Educacion> Educ = ERepo.findById(id);
         if(Educ.isPresent()){
             Educacion Educa = Educ.get();
