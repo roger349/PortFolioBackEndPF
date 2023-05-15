@@ -1,5 +1,0 @@
-FROM amazoncorretto:17
-MAINTAINER roger
-COPY target/backend-0.0.1-SNAPSHOT.jar  backend-0.0.1-SNAPSHOT.jar
-NAME-YOUR-FILE-BUILD-SPRINGBOOT.jar
-ENTRYPOINT ["java","-jar","/backend-0.0.1-SNAPSHOT.jar"]
