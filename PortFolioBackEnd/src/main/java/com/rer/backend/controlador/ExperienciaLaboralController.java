@@ -43,7 +43,7 @@ public class ExperienciaLaboralController {
         IExpLServ.borrarDatosEL(id);
      }    
     @PutMapping("/updatedatosExp/{id}")
-    public ResponseEntity <ExperienciaLaboral> updateDatosEL(@PathVariable("id") int id, @RequestBody ExperienciaLaboral exp) {
+    public ResponseEntity <ExperienciaLaboral> updateDatosEL(@PathVariable("id") long id, @RequestBody ExperienciaLaboral exp) {
         Optional <ExperienciaLaboral> ExpL = ExpLRepo.findById(id);
         if(ExpL.isPresent()){
             ExperienciaLaboral ExpLa = ExpL.get();
