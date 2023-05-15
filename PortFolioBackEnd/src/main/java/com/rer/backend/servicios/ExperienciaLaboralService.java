@@ -2,11 +2,13 @@ package com.rer.backend.servicios;
 
 import com.rer.backend.modelos.ExperienciaLaboral;
 import com.rer.backend.repositorios.ExperienciaLaboralRepositorio;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+@Transactional
 public class ExperienciaLaboralService implements IExperienciaLaboralService {
     
     @Autowired
