@@ -8,12 +8,12 @@ com\rer\backend\controlador\UserLoginController.class
 com\rer\backend\modelos\JornadaLaboral.class
 com\rer\backend\PortFolioBackEndApplication.class
 com\rer\backend\servicios\ITecnologiasService.class
-com\rer\backend\WebConfiguracion.class
 com\rer\backend\servicios\TecnologiasService.class
 com\rer\backend\controlador\JornadaLaboralController.class
 com\rer\backend\modelos\Tecnologias.class
 com\rer\backend\servicios\IEducacionService.class
 com\rer\backend\controlador\ProyectosController.class
+com\rer\backend\PortFolioBackEndApplication$WebConfiguracion.class
 com\rer\backend\controlador\TecnologiasController.class
 com\rer\backend\servicios\ExperienciaLaboralService.class
 com\rer\backend\servicios\EducacionService.class
