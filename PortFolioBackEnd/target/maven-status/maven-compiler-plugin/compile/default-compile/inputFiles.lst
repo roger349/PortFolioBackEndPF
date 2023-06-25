@@ -1,6 +1,7 @@
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\PortFolioBackEndApplication.java
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\repositorios\DatosPersonalesRepositorio.java
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\controlador\UserLoginController.java
+D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\WebConfig.java
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\modelos\ExperienciaLaboral.java
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\servicios\TecnologiasService.java
 D:\PortFolioBackEnd\PortFolioBackEnd\src\main\java\com\rer\backend\repositorios\ExperienciaLaboralRepositorio.java

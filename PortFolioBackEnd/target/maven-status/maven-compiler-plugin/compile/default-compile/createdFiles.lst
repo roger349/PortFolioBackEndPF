@@ -25,6 +25,7 @@ com\rer\backend\servicios\IProyectosService.class
 com\rer\backend\servicios\IDatosPersonalesService.class
 com\rer\backend\modelos\DatosPersonales.class
 com\rer\backend\repositorios\ProyectosRepositorio.class
+com\rer\backend\WebConfig.class
 com\rer\backend\controlador\EducacionController.class
 com\rer\backend\modelos\ExperienciaLaboral.class
 com\rer\backend\repositorios\DatosPersonalesRepositorio.class
