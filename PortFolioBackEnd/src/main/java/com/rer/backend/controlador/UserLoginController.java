@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/userLogin")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://argentinaprograma-yoprogramo.web.app")
 public class UserLoginController {
     @Autowired
     private IUserLoginService IULServ;
